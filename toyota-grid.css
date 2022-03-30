@@ -1,0 +1,194 @@
+.content{
+    width: 1000px;
+    height: 740px;
+    display: grid;
+    /* background-color: #f00; */
+    grid-template-columns:repeat(25,40px);
+    grid-template-rows:repeat( 37,20px);
+    margin: auto;
+    /* border: 1px solid green; */
+    margin-bottom: 40px;
+}
+.content .picture{
+    grid-area: 7/ 6/8 /10 ;
+}
+.title{
+    width: 340px;
+    grid-area: 2/2/12/14;
+    z-index: 1;
+}
+.title h2{
+    font-size: 50px;
+    width: 100%;
+    height:100px;
+    background-color: #f00; 
+    color: #fff;
+}
+.title h2 span{
+    writing-mode: vertical-lr;
+    vertical-align: middle;
+    font-size: 100px;
+}
+.column{
+    padding: 20px 20px;
+    background-color: #000;
+}
+.column span{
+    width: 350px;
+    font-size: 24px;
+    color: #fff;
+}
+.column p{
+    line-height: 40px;
+    font-size: 17px;
+    color: #fff;
+}
+.list{
+    width:620px;
+    height: 170px;
+    background-color: #eeeeee;
+    padding: 20px;
+    line-height: 20px;
+    grid-area: 27/4/40/20;
+}
+.list h4{
+    color:red;
+    font-size: 20px;
+}
+.list span{
+    background-color: #000;
+    color: #fff;
+    padding: 1px;
+}
+.gray{
+    background-color: #eeeeee;
+    width: 439px;
+    height: 290px;
+    z-index: -1;
+    grid-area: 4/14/20/20;
+}
+.icon{
+    z-index: 1;
+    grid-area: 19/22/25/26;
+}
+.title-left{
+    width: 340px;
+    grid-area: 2/2/12/14;
+    z-index: 1;
+}
+.title-left h2{
+    font-size: 50px;
+    width: 100%;
+    height:100px;
+    background-color: #f00; 
+    color: #fff;
+}
+.title-left h2 span{
+    writing-mode: vertical-lr;
+    vertical-align: middle;
+    font-size: 100px;
+}
+.container{
+    width: 1000px;
+    height: 740px;
+    display: grid;
+    /* background-color: #f00; */
+    grid-template-columns:repeat(25,40px);
+    grid-template-rows:repeat( 37,20px);
+    margin: auto;
+    /* border: 1px solid green; */
+}
+.service{
+    width: 340px;
+    grid-area: 2/16/6/24;
+}
+.pic{
+    grid-area: 7/ 2/8 /10 ;
+}
+.service h2{
+    font-size: 50px;
+    width: 100%;
+    height:100px;
+    background-color: #f00; 
+    color: #fff;
+}
+.service h2 span{
+    writing-mode: vertical-lr;
+    vertical-align: middle;
+    font-size: 100px;
+}
+.col{
+    padding: 20px 20px;
+    background-color: #000;
+}
+.col span{
+    width: 350px;
+    font-size: 24px;
+    color: #fff;
+}
+.col p{
+    line-height: 40px;
+    font-size: 17px;
+    color: #fff;
+}
+.main{
+    width:624px;
+    background-color: #eeeeee;
+    margin: auto;
+    padding: 20px;
+    line-height: 20px;
+    grid-area: 23/8/40/20;
+}
+.main h4{
+    color:red;
+    font-size: 20px;
+}
+.main span{
+    background-color: #000;
+    color: #fff;
+    padding: 1px;
+}
+.gray-area{
+    background-color: #eeeeee;
+    width: 518px;
+    height: 413px;
+    z-index: -1;
+    grid-area: 4/8/40/20;
+}
+.icon-even{
+    z-index: 1;
+    grid-area: 17/1/20/5;
+}
+.title-left{
+    width: 340px;
+}
+.title-left h2{
+    font-size: 50px;
+    width: 100%;
+    height:100px;
+    background-color: #f00; 
+    color: #fff;
+}
+.title-left h2 span{
+    writing-mode: vertical-lr;
+    vertical-align: middle;
+    font-size: 100px;
+}
+.service-right{
+    width: 340px;
+    right: 62px;
+    bottom: 169px;
+    grid-area: 2/16/6/24;
+}
+.service-right h2{
+    font-size: 50px;
+    width: 100%;
+    height:100px;
+    background-color: #f00; 
+    color: #fff;
+}
+.service-right h2 span{
+    writing-mode: vertical-lr;
+    vertical-align: middle;
+    font-size: 100px;
+}
