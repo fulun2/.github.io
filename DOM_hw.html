@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .picturestyle{
+            width: 300px;
+        }
+        .imageArray{
+            width: 200px;
+        }
+    </style>
+</head>
+<body>
+    <div class="my_self">
+        <img id="imagel" src="" alt="">
+        <p id="name">姓名:</p>
+        <p id="gmail">信箱:</p>
+        <p id="school">學校:</p>
+        <p id="interest">興趣:</p>
+    </div>
+
+    
+    <script>
+        let img = document.getElementById("imagel");
+        let p_name = document.getElementById("name");
+        let p_school = document.getElementById("school");
+        let p_gmail = document.getElementById("gmail");
+        let p_interest = document.getElementById("interest");
+
+        const imagel ="https://img.win3000.com/m00/5e/50/a15d10b353e301d5af040c7498bbd7d0.jpg";
+
+
+        img.setAttribute("src",imagel);
+        img.setAttribute("alt","照片");
+        img.setAttribute("class","picturestyle");
+
+        document.write("<br>");
+
+        p_name.innerText+="倫";
+        p_school.innerText+="中華大學";
+        p_gmail.innerText+="vjm33911@gmail.com";
+        p_interest.innerText+="睡覺";
+
+        const imageArray =[
+            "https://jpgs.ylhuake.com/smdu/content/images/compress/20211110/618b7063a0ba6.jpg",
+            "https://img.win3000.com/m00/a1/db/4db9a04af733a1c02cdc32a3298c6055.jpg",
+            "https://img.win3000.com/m00/8d/38/b574cbd0bcd4096259a3ed5fd83e759c.jpg"
+        ];
+
+        imageArray.forEach((url, index)=>{
+            document.write(`<img src=${url}>`+ "<br>");
+
+        });
+
+
+    </script>
+</body>
+</html>
